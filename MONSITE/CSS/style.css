@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+/*font-family: 'Roboto', sans-serif;*/
+/*CTA inner-banner*/
+
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/*page accueil*/
+/* header */
+.header{
+  background-color: #2E0927;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a{
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.menu a:hover{
+  color: #573B75;
+}
+
+/* banner */
+.banner {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.ban img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-banner h1 {
+  color: #ffffff;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom {
+  background-color: #2E0927;
+  color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover {
+  background-color: #573B75;
+}
+
+/* A propos */
+ h2, h3 {
+  color: #2E0927 ;
+}
+
+h2 {
+  text-align: center;
+}
+
+.separator {
+  height: 3px;
+  width : 5%;
+  border: none;
+  box-shadow: none;
+  background-color: #644D52;
+}
+
+.about .bouton .btn-custom {
+  text-align: center;
+  float: right;
+  background-color: #573B75;
+  color: #ffffff;
+}
+
+.about .bouton .btn-custom:hover {
+  background-color: #644D52;
+}
+/*end à propos*/
+
+/*Le coach*/
+
+.photo img {
+  float:right;
+  width: 10%;
+  max-width: 10%;
+  vertical-align:middle;
+}
+
+.presentation {
+  text-align: center;
+  vertical-align: middle;
+}
+/*end le coach*/
+
+/* footer */
+.footer {
+  background-color: #2E0927;
+  height: 150px;
+  line-height: 140px;
+}
+
+.footer h4 {
+  font-size: medium;
+  margin-top: 20px;
+}
+
+.footer p {
+  float:right;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  height: 10px;
+  line-height: 20px;
+}
+
+.footer input {
+  height:20px;
+  width: 150px;
+  background-color: #ffffff;
+  color: #644D52;
+  border:none;
+}
+
+.footer input [type=text] {
+  height:10px;
+  width: 20px;
+  border: none;
+}
+
+.footer .row {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  height: 10px;
+  line-height: 10px;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.footer .bouton .btn-custom {
+text-align: center;
+vertical-align: middle;
+height: 25px;
+line-height: 10px;
+background-color: #644D52;
+color: #ffffff;
+}
+
+.footer .bouton .btn-custom:hover {
+  background-color: #573B75;
+}
+
+/*end footer*/
+/*end page accueil*/
+
+/*page contact*/
+
+.contact h2 {
+color: #ffffff;
+text-shadow: 0px 0px 1px #ffffff;
+text-align: center;
+vertical-align: middle;
+line-height: 10px;
+}
+
+.contact p {
+  color:#ffffff;
+  font-size: medium;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 1px #ffffff;
+}
+
+.formulaire{
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  margin-bottom: 10px;
+  background-color: #644D52;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+input [type=text] {
+  height:50px;
+  width: 500px;
+  border: none;
+}
+
+input [type=email] {
+  height:50px;
+  width: 500px;
+  border: none;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  resize: vertical;
+  background-color: #644D52;
+  color: #ffffff;
+}
+
+/*end page contact*/
+
+/*page Tarifs*/
+/*test*/
+.test {
+  background-color: #644D52;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.test h2 {
+  color: #ffffff;
+}
+
+
+.test input {
+  background-color: #ffffff;
+  color: #644D52;
+  text-align: center;
+  vertical-align: middle;
+  width: 250px;
+  height: 30px;
+  border: none;
+}
+
+.test .form-control {
+  width: 250px;
+  height: 30px;
+  border:none;
+  display: block;
+  margin: auto;
+}
+
+.test label {
+  color: #ffffff;
+  width: 250px;
+  height: 20px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+
+.test .bouton .btn-custom {
+  background-color: #573B75;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.test .bouton .btn-custom:hover {
+  background-color: #2E0927;
+}
+/*end test*/
+
+/*page about*/
+.program .intro {
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+  color: #644D52;
+}
+
+.program h3 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.exercice h3{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.salle h3 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.salle {
+  margin-bottom: 30px;
+}
+
+.salle li {
+  text-align: center;
+}
